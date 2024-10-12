@@ -30,7 +30,8 @@ jobs:
           - '3.10'
           - '3.11'
           - '3.12'
-          - '3.13'
+          # Wait for greenlet
+          # - '3.13'
         workspace: ['locked', 'latest']
     steps:
       - uses: actions/checkout@v4
